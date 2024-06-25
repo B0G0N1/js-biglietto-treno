@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let distance = prompt("Quanti km vuoi fare?");
 
         // Calcolo il costo del biglietto
-        let ticket_price = age * km_price;
+        let ticket_price = distance * km_price;
 
         // Calcolo il costo del biglietto scontato
         if (age < 18) {
